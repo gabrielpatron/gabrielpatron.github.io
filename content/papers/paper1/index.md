@@ -5,11 +5,7 @@ lastmod: 2024-07-12
 tags: ["real-time optimization","control","nonlinear process control","control of large-scale systems"]
 author: ["Gabriel D. Patrón","Luis Ricardez-Sandoval"]
 description: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2013." 
-summary: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. It highlights in particular the challengs arising from excessive or unorthodox consumption of olive oil." 
-cover:
-    image: "paper1.png"
-    alt: "Some Uses For Olive Oil"
-    relative: false
+summary: " " 
 editPost:
     URL: "https://doi.org/10.1016/j.ifacol.2020.12.639"
     Text: "IFAC World Congress 2021"
@@ -52,6 +48,4 @@ number = {1},
 pages = {449--489},
 url = {http://www.alexandermccallsmith.com/book/unusual-uses-for-olive-oil}}
 ```
-
-
 
