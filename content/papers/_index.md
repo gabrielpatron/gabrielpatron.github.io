@@ -5,27 +5,31 @@ description: ""
 
 ## Publications
 
+## 2023
 
-
-* **Patrón, Gabriel D.**, Ricardez-Sandoval, Luis. ["Real-Time Optimization and Nonlinear Model Predictive Control for a Post-Combustion Carbon Capture Absorber."](https://doi.org/10.1016/j.ifacol.2020.12.639)IFAC-PapersOnLine 53(2), 11595-11600. [[Preprint]](paper1.pdf) [[Presentation slides]](presentation1.pdf)
-
+* **Patrón, G.D.**, Ricardez-Sandoval, L., 2023. [Directional modifier adaptation based on input selection for real-time optimization.](https://doi.org/10.1016/j.compchemeng.2023.108351)Comp. Chem. Eng. 177, 108351. [[Preprint]](paper1.pdf)
 <br><br>
 
-
-
-* **Kabir, Samia**, Lixiang Li, and Tianyi Zhang. ["STILE: Exploring and Debugging Social Biases in Pre-trained Text Representations."](https://dl.acm.org/doi/pdf/10.1145/3613904.3642111)In Proceedings of the CHI Conference on Human Factors in Computing Systems **(CHI ’24)**.
+* **Patrón, G.D.**, Ricardez-Sandoval, L., 2023. [Robust real-time optimization and parameter estimation of post-combustion CO2 capture under economic uncertainty.](https://doi.org/10.1016/j.ces.2023.119124)Chem. Eng. Sci, 281, 119124. [[Preprint]](paper1.pdf)
 <br><br>
 
-* Esmaeili, Shaghayegh, **Samia Kabir**, Anthony M. Colas, Rhema P. Linder, and Eric D. Ragan. ["Evaluating Graphical Perception of Visual Motion for Quantitative Data Encoding."](https://ieeexplore.ieee.org/document/9839572) IEEE Transactions on Visualization and Computer Graphics (2022).
-<br> <br>
+* **Patrón, G.D.**, Ricardez-Sandoval, L., 2023. [Economic Model Predictive Control of a Recirculating Aquaculture System.](https://doi.org/10.1016/j.ifacol.2023.10.723)IFAC-PapersOnLine 56(2), 6156-6161. [[Preprint]](paper1.pdf) [[Presentation slides]](presentation1.pdf)
+<br><br>
 
-* Nourani, Mahsan, **Samia Kabir**, Sina Mohseni, and Eric D. Ragan. ["The effects of meaningful and meaningless explanations on trust and perceived system accuracy in intelligent systems."](https://www.researchgate.net/publication/364463683_The_Effects_of_Meaningful_and_Meaningless_Explanations_on_Trust_and_Perceived_System_Accuracy_in_Intelligent_Systems) In Proceedings of the AAAI Conference on Human Computation and Crowdsourcing, vol. 7, pp. 97-105. 2019.
-<br> <br>
+## 2022
 
-* Roy, Chiradeep, Mahesh Shanbhag, Mahsan Nourani, Tahrima Rahman, **Samia Kabir**, Vibhav Gogate, Nicholas Ruozzi, and Eric D. Ragan. ["Explainable Activity Recognition in Videos."](https://personal.utdallas.edu/~nrr150130/Papers/exss19.pdf) In IUI Workshops, vol. 2, no. 4. 2019.  
-<br>
-* Mehnaz Tabassum, Tanzima Hashem, and **Samia Kabir**. ["A crowd enabled approach for processing nearest neighbor and range queries in incomplete databases with accuracy guarantee."](https://www.researchgate.net/profile/Tanzima-Hashem/publication/308910421_A_crowd_enabled_approach_for_processing_nearest_neighbor_and_range_queries_in_incomplete_databases_with_accuracy_guarantee/links/5ba7374ca6fdccd3cb6c69c5/A-crowd-enabled-approach-for-processing-nearest-neighbor-and-range-queries-in-incomplete-databases-with-accuracy-guarantee.pdf) Pervasive and Mobile Computing 39 (2017): 249-26.
+* **Patrón, G.D.**, Ricardez-Sandoval, L., 2022. [An integrated real-time optimization, control, and estimation scheme for post-combustion CO2 capture.](https://doi.org/10.1016/j.apenergy.2021.118302)Appl. Energy 308, 118302. [[Preprint]](paper1.pdf)
+<br><br>
 
+* **Patrón, G.D.**, Ricardez-Sandoval, L., 2022. [Low-Variance Parameter Estimation Approach for Real-Time Optimization of Noisy Process Systems.](https://doi.org/10.1021/acs.iecr.2c02897)Ind. Eng. Chem. Res 61(45), 16780–16798. [[Preprint]](paper1.pdf)
+<br><br>
+
+## 2020
+
+* **Patrón, G.D.**, Ricardez-Sandoval, L., 2020. [A robust nonlinear model predictive controller for a post-combustion CO2 capture absorber unit.](https://doi.org/10.1016/j.fuel.2019.116932)Fuel 265, 116932. [[Preprint]](paper1.pdf)
+<br><br>
+
+* **Patrón, G.D.**, Ricardez-Sandoval, L., 2020. [Real-Time Optimization and Nonlinear Model Predictive Control for a Post-Combustion Carbon Capture Absorber.](https://doi.org/10.1016/j.ifacol.2020.12.639)IFAC-PapersOnLine 53(2), 11595-11600. [[Preprint]](paper1.pdf) [[Presentation slides]](presentation1.pdf)
 <br><br>
 
 
