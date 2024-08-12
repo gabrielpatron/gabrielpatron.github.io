@@ -54,7 +54,7 @@ params:
     profileMode:
           enabled: true
           title: Gabriel D. Patrón
-          subtitle: "I am a Postdoctoral fellow at the Department of Chemical Engineering, University of Waterloo, Canada." \n "My research focuses on theory, algorithms, and applications of control and optimization in process systems."
+          subtitle: "I am a Postdoctoral fellow at the Department of Chemical Engineering, University of Waterloo, Canada. My research focuses on theory, algorithms, and applications of control and optimization in process systems."
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
