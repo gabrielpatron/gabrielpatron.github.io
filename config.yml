@@ -11,21 +11,10 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
         - name: Papers
           url: papers/
           weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+
 
 params:
     description: "I am a Professor of Philology at the Institute of Romance Philology in Regensburg, Germany. My research focuses mostly on Portuguese irregular verbs."
@@ -54,7 +43,7 @@ params:
     profileMode:
           enabled: true
           title: Gabriel D. Patrón
-          subtitle: "I am a Postdoctoral fellow at the Department of Chemical Engineering, University of Waterloo. \n\n\n\n\n\n My research focuses on theory, algorithms, and applications of control and optimization in process systems."
+          subtitle: "I am a Postdoctoral Fellow in the Department of Chemical Engineering at the University of Waterloo. <br><br> My research focuses on theory, algorithms, and applications of control and optimization in process systems."
           imageUrl: "PAT_1839-2.JPG"
           imageWidth: 160
           imageHeight: 160
@@ -62,10 +51,6 @@ params:
           buttons:
             - name: Papers
               url: papers/
-            - name: Courses
-              url: courses/
-            - name: Data
-              url: data/
 
     socialIcons:
         - name: CV
