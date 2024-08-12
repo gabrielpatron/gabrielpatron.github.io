@@ -29,7 +29,7 @@ menu:
 
 params:
     description: "I am a Professor of Philology at the Institute of Romance Philology in Regensburg, Germany. My research focuses mostly on Portuguese irregular verbs."
-    author: Moritz-Maria von Igelfeld
+    author: Gabriel D. Patrón
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -54,8 +54,8 @@ params:
     profileMode:
           enabled: true
           title: Gabriel D. Patrón
-          subtitle: "I am a Postdoctoral fellow at the Department of Chemical Engineering, University of Waterloo, Canada. My research focuses on theory, algorithms, and applications of control and optimization in process systems."
-          imageUrl: "picture.jpeg"
+          subtitle: "I am a Postdoctoral fellow at the Department of Chemical Engineering, University of Waterloo. \n\n\n\n\n\n My research focuses on theory, algorithms, and applications of control and optimization in process systems."
+          imageUrl: "PAT_1839-2.JPG"
           imageWidth: 160
           imageHeight: 160
           imageTitle: Moritz-Maria von Igelfeld
@@ -69,7 +69,7 @@ params:
 
     socialIcons:
         - name: CV
-          url: cv.pdf
+          url: CV_GDP.pdf
         - name: Email
           url: mailto:g2patron@uwaterloo.ca
         - name: Location
@@ -83,7 +83,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Gabriel D. Patrón"
       icon: favicon.ico
       iconHeight: 18
 
