@@ -79,11 +79,11 @@ params:
         - name: CV
           url: cv.pdf
         - name: Email
-          url: mailto:moritz.maria.von.igelfeld@gmail.com
+          url: mailto:g2patron@uwaterloo.ca
         - name: Location
           url: location/
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+          url: https://scholar.google.co.uk/citations?user=r1Rw2nQAAAAJ&hl=en
 
     assets:
         disableScrollBarStyle: true
