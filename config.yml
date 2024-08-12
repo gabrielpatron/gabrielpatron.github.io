@@ -1,5 +1,5 @@
 baseURL: "https://gabrielpatron.github.io" 
-title: Gabriel D. Patrónnn
+title: Gabriel D. Patrón
 paginate: 20
 theme: PaperMod
 
@@ -55,7 +55,7 @@ params:
           enabled: true
           title: Gabriel D. Patrón
           subtitle: "I am a Postdoctoral fellow at the Department of Chemical Engineering University of Waterloo, Canada. My research focuses on theory, algorithms, and applications of control and optimization in process systems."
-          imageUrl: "picture.jpeg"
+          imageUrl: "PAT_1839-2.JPG"
           imageWidth: 160
           imageHeight: 160
           imageTitle: Moritz-Maria von Igelfeld
