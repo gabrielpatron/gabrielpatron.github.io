@@ -1,9 +1,9 @@
 ---
-title: "Unusual Uses For Olive Oil" 
-date: 2013-01-15
+title: "Real-Time Optimization and Nonlinear Model Predictive Control for a Post- Combustion Carbon Capture Absorber" 
+date: 2021-04-14
 lastmod: 2024-07-12
-tags: ["philology","oleic science","history of oil","Mediterranean world"]
-author: ["Detlev Amadeus Unterholzer","Moritz-Maria von Igelfeld"]
+tags: ["real-time optimization","control","nonlinear process control","control of large-scale systems"]
+author: ["Gabriel D. Patrón","Luis Ricardez-Sandoval"]
 description: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2013." 
 summary: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. It highlights in particular the challengs arising from excessive or unorthodox consumption of olive oil." 
 cover:
@@ -11,8 +11,8 @@ cover:
     alt: "Some Uses For Olive Oil"
     relative: false
 editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Journal of Oleic Science"
+    URL: "https://doi.org/10.1016/j.ifacol.2020.12.639"
+    Text: "IFAC World Congress 2021"
 
 ---
 
@@ -21,14 +21,13 @@ editPost:
 ##### Download
 
 + [Paper](paper1.pdf)
-+ [Online appendix](appendix1.pdf)
-+ [Code and data](https://github.com/pmichaillat/feru)
++ [Presentation slides](presentation1.pdf)
 
 ---
 
 ##### Abstract
 
-This paper reviews unusual uses for olive oil throughout the Mediterranean world. It highlights in particular the challengs arising from excessive or unorthodox consumption of olive oil. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+A framework to perform real-time optimization (RTO) and nonlinear model predictive control (NMPC) is presented for a post-combustion carbon capture absorber unit. The NMPC is applied as a set point regulator with and without an accompanying RTO scheme. Moreover, a Kalman filter (KF) is used to perform state estimation for the scheme. The absorber RTO formulation considers solvent degradation cost, carbon tax, and electrical pumping costs. The two scenarios (with and without RTO) are assessed in situations with a fixed carbon tax, and a time-varying carbon tax. The results show that the RTO/NMPC scheme provides substantial economic benefit over the NMPC-only scheme, even for a short simulation time (~130 minutes). Furthermore, the RTO also aids in guaranteeing reachable set points for the NMPC, which may not occur otherwise.
 
 ---
 
@@ -54,9 +53,5 @@ pages = {449--489},
 url = {http://www.alexandermccallsmith.com/book/unusual-uses-for-olive-oil}}
 ```
 
----
 
-##### Related material
 
-+ [Presentation slides](presentation1.pdf)
-+ [Summary of the paper](https://www.penguinrandomhouse.com/books/110403/unusual-uses-for-olive-oil-by-alexander-mccall-smith/)
