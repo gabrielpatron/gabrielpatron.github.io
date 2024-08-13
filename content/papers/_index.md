@@ -23,23 +23,23 @@ description: ""
 * **Patrón, G.D.**, Ricardez-Sandoval, L., 2023. [Robust real-time optimization and parameter estimation of post-combustion CO2 capture under economic uncertainty.](https://doi.org/10.1016/j.ces.2023.119124)*Chem. Eng. Sci.*, 281, 119124. [[preprint]](paper1.pdf)
 <br><br>
 
-* **Patrón, G.D.**, Ricardez-Sandoval, L., 2023. [Economic Model Predictive Control of a Recirculating Aquaculture System.](https://doi.org/10.1016/j.ifacol.2023.10.723)*IFAC-PapersOnLine* 56(2), 6156-6161. [open access] [[presentation slides]](presentation1.pdf)
+* **Patrón, G.D.**, Ricardez-Sandoval, L., 2023. Economic Model Predictive Control of a Recirculating Aquaculture System. *IFAC-PapersOnLine* 56(2), 6156-6161. [[Open access paper]](https://doi.org/10.1016/j.ifacol.2023.10.723) [[Presentation slides]](IFAC_2023_slides.pdf)
 <br><br>
 
 ## 2022
 
-* **Patrón, G.D.**, Ricardez-Sandoval, L., 2022. [An integrated real-time optimization, control, and estimation scheme for post-combustion CO2 capture.](https://doi.org/10.1016/j.apenergy.2021.118302)*Appl. Energy* 308, 118302. [[preprint]](preprint_appen.pdf)
+* **Patrón, G.D.**, Ricardez-Sandoval, L., 2022. An integrated real-time optimization, control, and estimation scheme for post-combustion CO2 capture. *Appl. Energy* 308, 118302. [[Paper]](https://doi.org/10.1016/j.apenergy.2021.118302) [[Preprint]](preprint_appen.pdf)
 <br><br>
 
-* **Patrón, G.D.**, Ricardez-Sandoval, L., 2022. [Low-Variance Parameter Estimation Approach for Real-Time Optimization of Noisy Process Systems.](https://doi.org/10.1021/acs.iecr.2c02897)*Ind. Eng. Chem. Res.* 61(45), 16780–16798. [[preprint]](paper1.pdf)
+* **Patrón, G.D.**, Ricardez-Sandoval, L., 2022. Low-Variance Parameter Estimation Approach for Real-Time Optimization of Noisy Process Systems. *Ind. Eng. Chem. Res.* 61(45), 16780–16798. [[Paper]](https://doi.org/10.1021/acs.iecr.2c02897) [[Preprint]](I&ECR_preprint.pdf)
 <br><br>
 
 ## 2020
 
-* **Patrón, G.D.**, Ricardez-Sandoval, L., 2020. [A robust nonlinear model predictive controller for a post-combustion CO2 capture absorber unit.](https://doi.org/10.1016/j.fuel.2019.116932)*Fuel* 265, 116932. [[preprint]](preprint_fuel.pdf)
+* **Patrón, G.D.**, Ricardez-Sandoval, L., 2020. A robust nonlinear model predictive controller for a post-combustion CO2 capture absorber unit. *Fuel* 265, 116932. [[Paper]](https://doi.org/10.1016/j.fuel.2019.116932) [[Preprint]](preprint_fuel.pdf)
 <br><br>
 
-* **Patrón, G.D.**, Ricardez-Sandoval, L., 2020. [Real-Time Optimization and Nonlinear Model Predictive Control for a Post-Combustion Carbon Capture Absorber.](https://doi.org/10.1016/j.ifacol.2020.12.639)*IFAC-PapersOnLine* 53(2), 11595-11600. [open access] [[Presentation slides]](presentation1.pdf)
+* **Patrón, G.D.**, Ricardez-Sandoval, L., 2020. Real-Time Optimization and Nonlinear Model Predictive Control for a Post-Combustion Carbon Capture Absorber. *IFAC-PapersOnLine* 53(2), 11595-11600. [[Open access paper]](https://doi.org/10.1016/j.ifacol.2020.12.639) [[Presentation slides]](IFAC_2020_slides.pdf)
 <br><br>
 
 # Book chapters
