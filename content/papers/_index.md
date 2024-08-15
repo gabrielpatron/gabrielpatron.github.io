@@ -9,18 +9,21 @@ description: ""
 
 ## 2024
 
-* **Patrón, G.D.**, Ricardez-Sandoval, L., 2024. [Economically optimal operation of recirculating aquaculture systems under uncertainty.](https://doi.org/10.1016/j.compag.2024.108856)*Comp. Electron. Agric.* 220, 108856. [open access]
+* **Patrón, G.D.**, Ricardez-Sandoval, L., 2024. Bootstrapped gross error detection for efficient and fault-tolerant real-time optimization. American Control Conference. [[Preprint]](ACC_preprint.pdf) [[Presentation slides]](ACC_2024_slides.pdf)
 <br><br>
 
-* **Patrón, G.D.**, Toffolo, K., Ricardez-Sandoval, L., 2024. [Economic model predictive control for packed bed chemical looping combustion.](https://doi.org/10.1016/j.cep.2024.109731)*Chem. Eng. Process.* 198, 109731. [[preprint]](paper1.pdf)
+* **Patrón, G.D.**, Ricardez-Sandoval, L., 2024. Economically optimal operation of recirculating aquaculture systems under uncertainty. *Comp. Electron. Agric.* 220, 108856. [[Open access paper]](https://doi.org/10.1016/j.compag.2024.108856)
+<br><br>
+
+* **Patrón, G.D.**, Toffolo, K., Ricardez-Sandoval, L., 2024. Economic model predictive control for packed bed chemical looping combustion. *Chem. Eng. Process.* 198, 109731. [[Paper]](https://doi.org/10.1016/j.cep.2024.109731) [[Preprint]](CEPPI_preprint.pdf)
 <br><br>
 
 ## 2023
 
-* **Patrón, G.D.**, Ricardez-Sandoval, L., 2023. [Directional modifier adaptation based on input selection for real-time optimization.](https://doi.org/10.1016/j.compchemeng.2023.108351)*Comp. Chem. Eng.* 177, 108351. [[preprint]](paper1.pdf)
+* **Patrón, G.D.**, Ricardez-Sandoval, L., 2023. Directional modifier adaptation based on input selection for real-time optimization. *Comp. Chem. Eng.* 177, 108351. [[Paper]](https://doi.org/10.1016/j.compchemeng.2023.108351) [[Preprint]](CACE_preprint.pdf)
 <br><br>
 
-* **Patrón, G.D.**, Ricardez-Sandoval, L., 2023. [Robust real-time optimization and parameter estimation of post-combustion CO2 capture under economic uncertainty.](https://doi.org/10.1016/j.ces.2023.119124)*Chem. Eng. Sci.*, 281, 119124. [[preprint]](paper1.pdf)
+* **Patrón, G.D.**, Ricardez-Sandoval, L., 2023. Robust real-time optimization and parameter estimation of post-combustion CO2 capture under economic uncertainty. *Chem. Eng. Sci.*, 281, 119124. [[Paper]](https://doi.org/10.1016/j.ces.2023.119124) [[Preprint]](CES_preprint.pdf)
 <br><br>
 
 * **Patrón, G.D.**, Ricardez-Sandoval, L., 2023. Economic Model Predictive Control of a Recirculating Aquaculture System. *IFAC-PapersOnLine* 56(2), 6156-6161. [[Open access paper]](https://doi.org/10.1016/j.ifacol.2023.10.723) [[Presentation slides]](IFAC_2023_slides.pdf)
@@ -44,6 +47,7 @@ description: ""
 
 # Book chapters
 
-*blah
+* **Patrón, G.D.**, Ricardez-Sandoval, L., 2024. Online Control and Optimization for Conventional and Emerging Carbon Capture Systems. [[Chapter]](https://doi.org/10.1016/B978-0-443-14081-5.00004-0) 
+<br><br>
 
 
