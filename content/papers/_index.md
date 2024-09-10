@@ -9,7 +9,7 @@ description: ""
 
 ## 2024
 
-* **Patrón, G.D.**, Ricardez-Sandoval, L., 2024. Bootstrapped gross error detection for efficient and fault-tolerant real-time optimization. American Control Conference. [[Paper]](10.23919/ACC60939.2024.10644302) [[Preprint]](ACC_preprint.pdf) [[Presentation slides]](ACC_2024_slides.pdf)
+* **Patrón, G.D.**, Ricardez-Sandoval, L., 2024. Bootstrapped gross error detection for efficient and fault-tolerant real-time optimization. American Control Conference. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10644302) [[Preprint]](ACC_preprint.pdf) [[Presentation slides]](ACC_2024_slides.pdf)
 <br><br>
 
 * **Patrón, G.D.**, Ricardez-Sandoval, L., 2024. Economically optimal operation of recirculating aquaculture systems under uncertainty. *Comp. Electron. Agric.* 220, 108856. [[Open access paper]](https://doi.org/10.1016/j.compag.2024.108856)
