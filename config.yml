@@ -43,7 +43,7 @@ params:
     profileMode:
           enabled: true
           title: Gabriel D. Patrón
-          subtitle: "I am a Research Associate under [<u>Calvin Tsay</u>](https://www.doc.ic.ac.uk/~ctsay/group/) in the [<u>Computational Optimization (COG)</u>](https://optimisation.doc.ic.ac.uk/) group at the [<u>Department of Computing, Imperial College London</u>](https://www.imperial.ac.uk/computing/). <br><br> My research focuses on developing theory, algorithms, and applications of control and optimisation in process systems - with a focus towards the water, energy, and food nexus."
+          subtitle: "I am a Research Associate under [<u>Calvin Tsay</u>](https://www.doc.ic.ac.uk/~ctsay/group/) in the [<u>Computational Optimization Group (COG)</u>](https://optimisation.doc.ic.ac.uk/) at the [<u>Department of Computing, Imperial College London</u>](https://www.imperial.ac.uk/computing/). <br><br> My research focuses on developing theory, algorithms, and applications of control and optimisation in process systems - with a focus towards the water, energy, and food nexus."
           imageUrl: "PAT_1839-2.JPG"
           imageWidth: 160
           imageHeight: 160
