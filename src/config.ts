@@ -91,11 +91,7 @@ export const siteConfig = {
   {
     name: "Gabriel D. Patrón",
     role: "Assistant Professor",
-    bio: "Postdoc, Computing, Imperial Colllege London
-          PhD, Chemical Engineering, University of Waterloo
-          MSc, Process Systems Engineering
-          Imperial College London
-          BASc, Chemical Engineering, University of Toronto",
+    bio: "Postdoc, Computing, Imperial Colllege Londo \n PhD, Chemical Engineering, University of Waterloo \n MSc, Process Systems Engineering, Imperial College London \n BASc, Chemical Engineering, University of Toronto",
     image: "/people/jane.jpg",
     links: {
       linkedin: "https://www.linkedin.com/in/gabriel-patrón-03a35597/",
