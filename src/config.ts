@@ -14,9 +14,9 @@ export const siteConfig = {
     {
       name: "Real-Time Optimization and Nonlinear Model Predictive Control for a Post-Combustion Carbon Capture Absorber",
       description:
-        "Patrón and Ricardez-Sandoval, 2020: Conference paper, 2020 IFAC World Congress",
+        "Patrón and Ricardez-Sandoval, 2020: Conference Paper, 2020 IFAC World Congress",
       link: "https://doi.org/10.1016/j.ifacol.2020.12.639",
-      skills: ["React", "Node.js", "AWS"],
+      skills: ["Control", "Optimization", "Sustainability"],
     },
   ],
   people: [
