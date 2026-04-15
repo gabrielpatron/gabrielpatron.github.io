@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Process Intelligence Laboratory",
   title: "@University of Toronto",
   description: "Portfolio website of Ryan Fitzgerald",
-  accentColor: "#1d4ed8",
+  accentColor: "#DDF097",
   social: {
     email: "your-email@example.com",
     linkedin: "https://linkedin.com/in/yourprofile",
