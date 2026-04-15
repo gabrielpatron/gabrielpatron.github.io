@@ -87,4 +87,25 @@ export const siteConfig = {
       ],
     },
   ],
+  people: [
+  {
+    name: "Jane Smith",
+    role: "Co-founder",
+    bio: "Product-minded engineer focused on developer tools and AI workflows.",
+    image: "/people/jane.jpg",
+    links: {
+      linkedin: "https://linkedin.com/in/janesmith",
+      github: "https://github.com/janesmith",
+    },
+  },
+  {
+    name: "Alex Chen",
+    role: "Design Lead",
+    bio: "Designs simple, readable interfaces for technical products.",
+    image: "/people/alex.jpg",
+    links: {
+      linkedin: "https://linkedin.com/in/alexchen",
+    },
+  },
+],
 };
