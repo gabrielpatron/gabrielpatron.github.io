@@ -1,45 +1,98 @@
 ---
 import { siteConfig } from "../config";
+const people = siteConfig.people ?? [];
 ---
 
-<section id="about" class="p-8 sm:p-12 md:p-16 lg:p-24">
-  <div>
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
-      <div class="lg:col-span-4">
-        <h2
-          class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900"
-        >
-          People
-        </h2>
-        <div
-          class="w-[75px] h-[5px] mt-2 rounded-full"
-          style={`background-color: ${siteConfig.accentColor}`}
-        >
+{people.length > 0 && (
+  <section id="people" class="p-8 sm:p-12 md:p-16 lg:p-24">
+    <div>
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+        <div class="lg:col-span-4">
+          <h2
+            class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900"
+          >
+            People
+          </h2>
+          <div
+            class="w-[75px] h-[5px] mt-2 rounded-full"
+            style={`background-color: ${siteConfig.accentColor}`}
+          >
+          </div>
         </div>
-      </div>
 
-      <div class="lg:col-span-8 space-y-8">
-        <p class="text-lg sm:text-xl md:text-2xl leading-relaxed text-gray-600">
-          {siteConfig.aboutMe}
-        </p>
+        <div class="lg:col-span-8">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {people.map((person) => (
+              <article class="rounded-2xl border border-gray-200 p-6 shadow-sm bg-white">
+                <div class="flex items-start gap-4">
+                  {person.image && (
+                    <img
+                      src={person.image}
+                      alt={person.name}
+                      class="h-20 w-20 rounded-full object-cover shrink-0"
+                    />
+                  )}
 
-        <div class="pt-4">
-          <div class="flex flex-wrap gap-3">
-            {
-              siteConfig.skills.map((skill) => (
-                <span class="px-3 sm:px-4 py-1.5 sm:py-2 bg-gray-100 text-gray-800 rounded-full text-sm sm:text-base md:text-lg font-medium hover:bg-gray-200 transition-colors duration-200">
-                  {skill}
-                </span>
-              ))
-            }
+                  <div class="min-w-0">
+                    <h3 class="text-xl sm:text-2xl font-semibold text-gray-900">
+                      {person.name}
+                    </h3>
 
+                    {person.role && (
+                      <p class="mt-1 text-base sm:text-lg text-gray-600">
+                        {person.role}
+                      </p>
+                    )}
+                  </div>
+                </div>
+
+                {person.bio && (
+                  <p class="mt-4 text-base sm:text-lg leading-relaxed text-gray-600 whitespace-pre-line">
+                    {person.bio}
+                  </p>
+                )}
+
+                {person.links && (
+                  <div class="mt-4 flex flex-wrap gap-3">
+                    {person.links.linkedin && (
+                      <a
+                        href={person.links.linkedin}
+                        target="_blank"
+                        rel="noreferrer"
+                        class="px-3 py-1.5 bg-gray-100 text-gray-800 rounded-full text-sm font-medium hover:bg-gray-200 transition-colors duration-200"
+                      >
+                        LinkedIn
+                      </a>
+                    )}
+
+                    {person.links.github && (
+                      <a
+                        href={person.links.github}
+                        target="_blank"
+                        rel="noreferrer"
+                        class="px-3 py-1.5 bg-gray-100 text-gray-800 rounded-full text-sm font-medium hover:bg-gray-200 transition-colors duration-200"
+                      >
+                        GitHub
+                      </a>
+                    )}
+
+                    {person.links.website && (
+                      <a
+                        href={person.links.website}
+                        target="_blank"
+                        rel="noreferrer"
+                        class="px-3 py-1.5 bg-gray-100 text-gray-800 rounded-full text-sm font-medium hover:bg-gray-200 transition-colors duration-200"
+                      >
+                        Website
+                      </a>
+                    )}
+                  </div>
+                )}
+              </article>
+            ))}
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-
-
-
-
+  </section>
+)}
