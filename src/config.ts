@@ -89,13 +89,12 @@ export const siteConfig = {
   ],
   people: [
   {
-    name: "Jane Smith",
-    role: "Co-founder",
-    bio: "Product-minded engineer focused on developer tools and AI workflows.",
+    name: "Gabriel D. Patrón",
+    role: "Assistant Professor",
+    bio: "Postdoc, Computing, Imperial Colllege London\nPhD, Chemical Engineering, University of Waterloo\nMSc, Process Systems Engineering, Imperial College London\nBASc, Chemical Engineering, University of Toronto",
     image: "/people/jane.jpg",
     links: {
-      linkedin: "https://linkedin.com/in/janesmith",
-      github: "https://github.com/janesmith",
+      linkedin: "https://www.linkedin.com/in/gabriel-patrón-03a35597/",
     },
   },
   {
