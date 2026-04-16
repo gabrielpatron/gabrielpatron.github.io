@@ -118,15 +118,7 @@ export const siteConfig = {
     image: "/people/jane.jpg",
     links: {
       linkedin: "https://www.linkedin.com/in/gabriel-patrón-03a35597/",
-    },
-  },
-  {
-    name: "Alex Chen",
-    role: "Design Lead",
-    bio: "Designs simple, readable interfaces for technical products.",
-    image: "/people/alex.jpg",
-    links: {
-      linkedin: "https://linkedin.com/in/alexchen",
+      twitter: "https://scholar.google.com/citations?user=r1Rw2nQAAAAJ&hl=en",
     },
   },
 ],
