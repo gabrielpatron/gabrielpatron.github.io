@@ -1,6 +1,6 @@
 export const siteConfig = {
-  name: "Process Intelligence Laboratory",
-  title: "@University of Toronto Department of Chemical Engineering and Applied Chemistry",
+  name: "Advanced Process Intelligence Laboratory (APIL🍏)",
+  title: "@University of Toronto, Department of Chemical Engineering and Applied Chemistry",
   description: "Portfolio website of Ryan Fitzgerald",
   accentColor: "#B5ED74",
   social: {
