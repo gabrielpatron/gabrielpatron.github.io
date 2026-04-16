@@ -12,6 +12,41 @@ export const siteConfig = {
   skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
   projects: [
     {
+      name: "Integrated Design and Scheduling of Hydrogen Processes under Uncertainty: A Quantile Neural Network Approach",
+      description:
+        "Patrón et al. 2025: Preprint, arXiv",
+      link: "arXiv:2510.27528v1",
+      skills: ["Control", "Optimization", "Sustainability"],
+    },
+    {
+      name: "Integrated Design and Scheduling of Hydrogen Processes under Uncertainty: A Quantile Neural Network Approach",
+      description:
+        "Ghilardi, Patrón, Alcántara and Tsay, 2025: Journal Paper, Indsutrial & Engineering Chemistry Research",
+      link: "https://doi.org/10.1016/j.compag.2024.108856",
+      skills: ["Machine Learning", "Optimization", "Sustainability"],
+    },
+    {
+      name: "Deep-learning-aided modifier adaptation: synergies with process intensification",
+      description:
+        "Patrón, Tsay and Ricardez-Sandoval, 2025: Journal Paper, Chemical Engineering and Processing - Process Intensification",
+      link: "https://doi.org/10.1016/j.cep.2025.110581",
+      skills: ["Control", "Machine Learning", "Optimization"],
+    },
+      {
+      name: "The Binding Affinities of Serum Proteins to Nanoparticles",
+      description:
+        "Stordy et al. 2025: Journal Paper, Journal of the American Chemical Society",
+      link: "https://doi.org/10.1021/jacs.5c02576",
+      skills: ["Modelling", "Nanomedicine"],
+    },
+      {
+      name: "Bootstrapped Gross Error Detection for Efficient and Fault-Tolerant Real-Time Optimization",
+      description:
+        "Patrón and Ricardez-Sandoval, 2024: Conference Paper, 2024 American Control Conference",
+      link: "10.23919/ACC60939.2024.10644302",
+      skills: ["Control", "Optimization"],
+    },
+    {
       name: "Economically optimal operation of recirculating aquaculture systems under uncertainty",
       description:
         "Patrón and Ricardez-Sandoval, 2024: Journal Paper, Computers and Electronics in Agriculture",
@@ -33,7 +68,7 @@ export const siteConfig = {
       skills: ["Control", "Optimization"],
     },
     {
-      name: "Robust real-time optimization and parameter estimation of post-combustion CO$_2$ capture under economic uncertainty",
+      name: "Robust real-time optimization and parameter estimation of post-combustion CO₂ capture under economic uncertainty",
       description:
         "Patrón and Ricardez-Sandoval, 2023: Journal Paper, Chemical Engineering Science",
       link: "https://doi.org/10.1016/j.ces.2023.119124",
@@ -54,7 +89,7 @@ export const siteConfig = {
       skills: ["Control", "Optimization"],
     },
     {
-      name: "An integrated real-time optimization, control, and estimation scheme for post-combustion CO2 capture",
+      name: "An integrated real-time optimization, control, and estimation scheme for post-combustion CO₂ capture",
       description:
         "Patrón and Ricardez-Sandoval, 2022: Journal Paper, Applied Energy",
       link: "https://doi.org/10.1016/j.apenergy.2021.118302",
