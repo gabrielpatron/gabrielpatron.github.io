@@ -1,9 +1,12 @@
 ---
 import { siteConfig } from "../config";
 
-const hasPeople = siteConfig.people && siteConfig.projects.length > 0;
+const hasPeople = siteConfig.people && siteConfig.people.length > 0;
 const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
-const hasJoinUs = siteConfig.JoinUs && siteConfig.JoinUs.length > 0;
+const hasJoinUs =
+  siteConfig.joinUs &&
+  siteConfig.joinUs.sections &&
+  siteConfig.joinUs.sections.length > 0;
 const hasEducation = siteConfig.education && siteConfig.education.length > 0;
 ---
 
@@ -49,7 +52,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
         hasJoinUs && (
           <li>
             <a
-              href="#joinus"
+              href="#join-us"
               class="text-gray-700 hover:text-black transition-colors font-medium"
             >
               Join Us
