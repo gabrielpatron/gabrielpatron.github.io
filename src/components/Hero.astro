@@ -147,9 +147,24 @@ import { siteConfig } from "../config";
         href={siteConfig.titleLink}
         target="_blank"
         rel="noopener noreferrer"
-        class="mt-4 sm:mt-6 md:mt-8 block text-pretty text-base sm:text-lg md:text-xl/8 font-medium text-gray-600 animate-fade-in animation-delay-400 hover:underline"
+        class="mt-4 sm:mt-6 md:mt-8 inline-flex items-center gap-2 text-pretty text-base sm:text-lg md:text-xl/8 font-semibold text-gray-700 animate-fade-in animation-delay-400 underline decoration-2 underline-offset-4 transition-all duration-300 hover:text-gray-900 hover:decoration-[3px]"
+        style={`text-decoration-color: ${siteConfig.accentColor}`}
       >
         {siteConfig.title}
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="h-4 w-4"
+          aria-hidden="true"
+        >
+          <path d="M7 17L17 7" />
+          <path d="M7 7h10v10" />
+        </svg>
       </a>
     </div>
   </div>
