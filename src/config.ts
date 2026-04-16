@@ -12,12 +12,68 @@ export const siteConfig = {
   skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
   projects: [
     {
+      name: "Economically optimal operation of recirculating aquaculture systems under uncertainty",
+      description:
+        "Patrón and Ricardez-Sandoval, 2024: Journal Paper, Computers and Electronics in Agriculture",
+      link: "https://doi.org/10.1016/j.compag.2024.108856",
+      skills: ["Control", "Optimization", "Sustainability"],
+    },
+    {
+      name: "Economic model predictive control for packed bed chemical looping combustion",
+      description:
+        "Patrón, Toffolo and Ricardez-Sandoval, 2024: Journal Paper, Chemical Engineering and Processing - Process Intensification",
+      link: "https://doi.org/10.1016/j.cep.2024.109731",
+      skills: ["Control", "Optimization", "Sustainability"],
+    },
+    {
+      name: "Directional modifier adaptation based on input selection for real-time optimization",
+      description:
+        "Patrón and Ricardez-Sandoval, 2023: Journal Paper, Computers & Chemical Engineering",
+      link: "https://doi.org/10.1016/j.compchemeng.2023.108351",
+      skills: ["Control", "Optimization"],
+    },
+    {
+      name: "Robust real-time optimization and parameter estimation of post-combustion CO$_2$ capture under economic uncertainty",
+      description:
+        "Patrón and Ricardez-Sandoval, 2023: Journal Paper, Chemical Engineering Science",
+      link: "https://doi.org/10.1016/j.ces.2023.119124",
+      skills: ["Control", "Optimization", "Sustainability"],
+    },
+    {
+      name: "Economic Model Predictive Control of a Recirculating Aquaculture System",
+      description:
+        "Patrón and Ricardez-Sandoval, 2023: Conference Paper, 2023 IFAC World Congress",
+      link: "https://doi.org/10.1016/j.ifacol.2023.10.723",
+      skills: ["Control", "Optimization", "Sustainability"],
+    },
+    {
+      name: "Low-Variance Parameter Estimation Approach for Real-Time Optimization of Noisy Process Systems",
+      description:
+        "Patrón and Ricardez-Sandoval, 2022: Journal Paper, Indsutrial & Engineering Chemistry Research",
+      link: "https://doi.org/10.1021/acs.iecr.2c02897",
+      skills: ["Control", "Optimization"],
+    },
+    {
+      name: "An integrated real-time optimization, control, and estimation scheme for post-combustion CO2 capture",
+      description:
+        "Patrón and Ricardez-Sandoval, 2022: Journal Paper, Applied Energy",
+      link: "https://doi.org/10.1016/j.apenergy.2021.118302",
+      skills: ["Control", "Optimization", "Sustainability"],
+    },
+    {
+      name: "A robust nonlinear model predictive controller for a post-combustion CO2 capture absorber unit",
+      description:
+        "Patrón and Ricardez-Sandoval, 2020: Journal Paper, Fuel",
+      link: "https://doi.org/10.1016/j.fuel.2019.116932",
+      skills: ["Control", "Optimization", "Sustainability"],
+    },
+    {
       name: "Real-Time Optimization and Nonlinear Model Predictive Control for a Post-Combustion Carbon Capture Absorber",
       description:
         "Patrón and Ricardez-Sandoval, 2020: Conference Paper, 2020 IFAC World Congress",
       link: "https://doi.org/10.1016/j.ifacol.2020.12.639",
       skills: ["Control", "Optimization", "Sustainability"],
-    },
+    },  
   ],
   people: [
   {
