@@ -9,7 +9,7 @@ export const siteConfig = {
     linkedin: "https://scholar.google.com/citations?user=r1Rw2nQAAAAJ&hl=en&oi=ao",
   },
   aboutMe:
-    "APIL works at the intersection of process systems engineering (PSE), machine learning (ML), and sustainability. By taking a computational approach to sustainable process engineer, we we develop mathematical models for new sustainable chemical processes, propose algorithms for their optimal process operation, and propose computer-aided designs of new processes and chemicals.",
+    "The Advanced Process Intelligence Laboratory (APIL to friends) works at the intersection of process systems engineering (PSE), machine learning (ML), and sustainability. We: \n develop mathematical models for new sustainable chemical processes \n propose algorithms for optimal process operation \n computationally design new processes and chemicals.",
   skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
   projects: [
     {
