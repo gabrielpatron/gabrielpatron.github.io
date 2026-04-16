@@ -5,7 +5,7 @@ export const siteConfig = {
   accentColor: "#B5ED74",
   social: {
     email: "gabriel.patron17@imperial.ac.uk",
-    scholar: "https://scholar.google.com/citations?user=r1Rw2nQAAAAJ&hl=en&oi=ao",
+    linkedin: "https://scholar.google.com/citations?user=r1Rw2nQAAAAJ&hl=en&oi=ao",
   },
   aboutMe:
     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
