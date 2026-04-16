@@ -25,7 +25,6 @@ const people = siteConfig.people ?? [];
           <div class="grid grid-cols-1 md:grid-cols-2 gap-1">
             {people.map((person) => (
               <article class="rounded-2xl border border-gray-200 p-6 shadow-sm bg-white">
-                <div class="flex items-start gap-4">
                   {person.image && (
                     <img
                       src={person.image}
@@ -33,6 +32,7 @@ const people = siteConfig.people ?? [];
                       class="h-20 w-20 rounded-full object-cover shrink-0"
                     />
                   )}
+                <div class="flex items-start gap-4">
 
                   <div class="min-w-0">
                     <h3 class="text-xl sm:text-2xl font-semibold text-gray-900">
