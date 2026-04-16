@@ -118,7 +118,7 @@ export const siteConfig = {
     image: "/people/jane.jpg",
     links: {
       linkedin: "https://www.linkedin.com/in/gabriel-patrón-03a35597/",
-      twitter: "https://scholar.google.com/citations?user=r1Rw2nQAAAAJ&hl=en",
+      scholar: "https://scholar.google.com/citations?user=r1Rw2nQAAAAJ&hl=en",
     },
   },
 ],
