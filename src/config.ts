@@ -14,15 +14,15 @@ export const siteConfig = {
     {
       name: "Integrated Design and Scheduling of Hydrogen Processes under Uncertainty: A Quantile Neural Network Approach",
       description:
-        "Patrón et al. 2025: Preprint, arXiv",
-      link: "arXiv:2510.27528v1",
+        "Patrón et al. 2025 (preprint) \n arXiv",
+      link: "https://doi.org/10.48550/arXiv.2510.27528",
       skills: ["Control", "Optimization", "Sustainability"],
     },
     {
       name: "Integrated Design and Scheduling of Hydrogen Processes under Uncertainty: A Quantile Neural Network Approach",
       description:
-        "Ghilardi, Patrón, Alcántara and Tsay, 2025: Journal Paper, Indsutrial & Engineering Chemistry Research",
-      link: "https://doi.org/10.1016/j.compag.2024.108856",
+        "Ghilardi, Patrón, Alcántara and Tsay, 2025: Journal Paper, Industrial & Engineering Chemistry Research",
+      link: "https://doi.org/10.1021/acs.iecr.5c03288",
       skills: ["Machine Learning", "Optimization", "Sustainability"],
     },
     {
@@ -43,7 +43,7 @@ export const siteConfig = {
       name: "Bootstrapped Gross Error Detection for Efficient and Fault-Tolerant Real-Time Optimization",
       description:
         "Patrón and Ricardez-Sandoval, 2024: Conference Paper, 2024 American Control Conference",
-      link: "10.23919/ACC60939.2024.10644302",
+      link: "https://ieeexplore.ieee.org/document/10644302",
       skills: ["Control", "Optimization"],
     },
     {
@@ -84,7 +84,7 @@ export const siteConfig = {
     {
       name: "Low-Variance Parameter Estimation Approach for Real-Time Optimization of Noisy Process Systems",
       description:
-        "Patrón and Ricardez-Sandoval, 2022: Journal Paper, Indsutrial & Engineering Chemistry Research",
+        "Patrón and Ricardez-Sandoval, 2022: Journal Paper, Industrial & Engineering Chemistry Research",
       link: "https://doi.org/10.1021/acs.iecr.2c02897",
       skills: ["Control", "Optimization"],
     },
