@@ -9,7 +9,12 @@ export const siteConfig = {
     linkedin: "https://scholar.google.com/citations?user=r1Rw2nQAAAAJ&hl=en&oi=ao",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
+    "ML is a potentially transformative tool to accelerate the green transition and address the climate crisis. Despite this potential, stakeholders are reluctant to implement ML owing to the “black-box problem”, whereby the motivation behind the decisions made by these models is opaque to their users. A variety of methods have been introduced to explain the outputs from ML models; this is known as interpretability. By employing interpretable ML-based decision-making tools for developing and operating sustainable chemical processes, they may be deployed quickly, safely, and with lasting process insights. The proposed research provides a suite of approaches to comprehensively optimize intensified sustainable manufacturing across spatiotemporal scales. This proposal aims to blend ML, energy systems, and process intensification, and engineering principles to answer the following questions:
+
+1)	Given a partial understanding of the mathematical models that govern new and untested sustainable and intensified chemical processes, can their underlying phenomena be learned from data to determine intensified optimal operating policies?
+2)	What non-market factors can be used to predict the markets involved in sustainable chemical and energy systems? Can these predictions be efficiently embedded into system models to achieve intensified optimal scheduling (i.e., dynamic intensification)?
+3)	What are the key decisions that influence the uptake of new (sustainable and intensified) chemical projects over time? Can heuristics be learned from data to inform future technological investment and policy?
+",
   skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
   projects: [
     {
