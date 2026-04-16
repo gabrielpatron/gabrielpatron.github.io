@@ -124,7 +124,7 @@ export const siteConfig = {
 ],
   
 joinUs: {
-  title: "Work with Us",
+  title: "Work With Us",
   sections: [
     {
       heading: "Graduate Students",
