@@ -87,6 +87,17 @@ const people = siteConfig.people ?? [];
                         Website
                       </a>
                     )}
+
+                    {person.links.scholar && (
+                      <a
+                        href={person.links.scholar}
+                        target="_blank"
+                        rel="noreferrer"
+                        class="px-3 py-1.5 bg-gray-100 text-gray-800 rounded-full text-sm font-medium hover:bg-gray-200 transition-colors duration-200"
+                      >
+                        Scholar
+                      </a>
+                    )}
                   </div>
                 )}
               </article>
