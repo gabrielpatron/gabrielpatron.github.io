@@ -115,7 +115,7 @@ export const siteConfig = {
     name: "Gabriel D. Patrón",
     role: "Assistant Professor",
     bio: "Postdoc, Computing, Imperial College London \n PhD, Chemical Engineering, University of Waterloo \n MSc, Chemical Engineering, Imperial College London \n BASc, Chemical Engineering, University of Toronto",
-    image: "/people/jane.jpg",
+    image: "/public/images/PAT_1839-2.JPG",
     links: {
       linkedin: "https://www.linkedin.com/in/gabriel-patrón-03a35597/",
       scholar: "https://scholar.google.com/citations?user=r1Rw2nQAAAAJ&hl=en",
