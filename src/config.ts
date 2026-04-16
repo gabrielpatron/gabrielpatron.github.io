@@ -128,19 +128,19 @@ joinUs: {
   sections: [
     {
       heading: "Graduate Students",
-      text: "We are looking for up to two graduate students (PhD, MASc) to join our group in Fall 2026. Prospective students with a strong interest in computation, machine learning, and control should to apply to the Chemical Engineering & Applied Chemistry graduate studies program. Please reach out to Prof. Patrón if you are planning to apply and are interested in joining our group!",
+      text: "We are looking for up to two graduate students (PhD, MASc) to join our group in Fall 2026. Prospective students with a strong interest in computation, machine learning, and control should to apply to the Chemical Engineering & Applied Chemistry graduate studies program. Please reach out to Prof. Patrón if you are planning to apply and are interested in joining our group! \n More information for prospective graduate students: https://chem-eng.utoronto.ca/graduate-studies/applications-and-admissions/ ",
     },
+    {
+      heading: "Undergraduate Students",
+      text: "We are excited to support motivated undergraduate students interested in conducting thesis research or summer research projects. Those interested should reach out to Prof. Patrón with a short statement describing your interest in the group and any previous research or professional work experience.",
+    },  
     {
       heading: "Postdoctoral Researchers",
       text: "We do not currently have funding to support postdoctoral positions. Applicants with independent funding are encouraged to reach out about possible research projects. Please email Prof. Patrón a copy of your CV and a cover letter describing your interest in the group and your research experience.",
     },
     {
       heading: "Collaborators",
-      text: "We are excited to support motivated undergraduate students interested in conducting thesis research or summer research projects. Those interested should reach out to Prof. Patrón with a short statement describing your interest in the group and any previous research or professional work experience.",
-    },    
-    {
-      heading: "Collaborators",
-      text: "We are always open to collaborations with academic, industry, and public-sector partners. We are actively looking to develop computational methods with applications in the chemical, energy, and financial industries. Please reach out to Prof. Patrón. ",
+      text: "We are always open to collaborations with academic, industry, and public-sector partners. We are actively looking to develop computational methods with applications in the chemical, energy, and financial industries. Please reach out to Prof. Patrón to explore potential collaborations.. ",
     },
   ],
 },
