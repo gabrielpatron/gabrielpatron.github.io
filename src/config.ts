@@ -9,7 +9,7 @@ export const siteConfig = {
     linkedin: "https://scholar.google.com/citations?user=r1Rw2nQAAAAJ&hl=en&oi=ao",
   },
   aboutMe:
-    "ML is a potentially transformative tool to accelerate the green transition and address the climate crisis. Despite this potential, stakeholders are reluctant to implement ML owing to the “black-box problem”, whereby the motivation behind the decisions made by these models is opaque to their users. A variety of methods have been introduced to explain the outputs from ML models; this is known as interpretability. By employing interpretable ML-based decision-making tools for developing and operating sustainable chemical processes, they may be deployed quickly, safely, and with lasting process insights. The proposed research provides a suite of approaches to comprehensively optimize intensified sustainable manufacturing across spatiotemporal scales. This proposal aims to blend ML, energy systems, and process intensification, and engineering principles to answer the following questions",
+    "APIL works at the intersection of process systems engineering (PSE), machine learning (ML), and sustainability. By taking a computational approach to sustainable process engineer, we we develop mathematical models for new sustainable chemical processes, propose algorithms for their optimal process operation, and propose computer-aided designs of new processes and chemicals.",
   skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
   projects: [
     {
