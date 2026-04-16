@@ -30,6 +30,17 @@ const hasJoinUs = joinUs && joinUs.sections && joinUs.sections.length > 0;
                     style="text-align: justify;">
                   {section.text}
                 </p>
+                  {section.link && (
+                      <a
+                        href={section.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="mt-3 inline-block font-medium text-gray-900 underline decoration-2 underline-offset-4 hover:opacity-70"
+                        style={`text-decoration-color: ${siteConfig.accentColor}`}
+                      >
+                        {section.linkText || "Learn more"}
+                      </a>
+                    )}
               </div>
             ))}
           </div>
