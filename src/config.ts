@@ -1,6 +1,7 @@
 export const siteConfig = {
   name: "Advanced Process Intelligence Laboratory (APIL🍏)",
   title: "@University of Toronto, Department of Chemical Engineering and Applied Chemistry",
+  titleLink: "https://chem-eng.utoronto.ca/",
   description: "APIL Site",
   accentColor: "#B5ED74",
   social: {
