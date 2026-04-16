@@ -122,4 +122,22 @@ export const siteConfig = {
     },
   },
 ],
+  
+joinUs: {
+  title: "Join Us",
+  sections: [
+    {
+      heading: "PhD Students",
+      text: "We are looking for motivated PhD students interested in machine learning, optimization, and energy systems.",
+    },
+    {
+      heading: "Postdoctoral Researchers",
+      text: "We welcome postdoctoral researchers with strong backgrounds in AI, control, and scientific computing.",
+    },
+    {
+      heading: "Collaborators",
+      text: "We are always open to collaborations with academic, industry, and public-sector partners.",
+    },
+  ],
+},
 };
