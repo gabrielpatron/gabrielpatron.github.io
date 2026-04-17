@@ -76,50 +76,6 @@ const hasJoinUs =
           </a>
         </div>
       </div>
-
-      <div class="hidden md:block flex flex-col md:items-end gap-4">
-        <nav class="flex gap-x-8">
-          <a
-            href="/about"
-            class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
-            >About</a
-          >
-          {
-            hasProjects && (
-              <a
-                href="/projects"
-                class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
-              >
-                Publications
-              </a>
-            )
-          }
-          {
-            hasExperience && (
-              <a
-                href="#experience"
-                class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
-              >
-                Experience
-              </a>
-            )
-          }
-          {
-            hasJoinUs && (
-              <a
-                href="/join-us"
-                class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
-              >
-                Work With Us
-              </a>
-            )
-          }
-        </nav>
-        <p class="text-sm text-gray-500">
-          © {new Date().getFullYear()}
-          {siteConfig.name}. All rights reserved.
-        </p>
-      </div>
     </div>
   </div>
 
