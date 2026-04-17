@@ -10,6 +10,8 @@ export const siteConfig = {
   },
   aboutMe:
     "The Advanced Process Intelligence Laboratory (APIL to friends) works at the intersection of process systems engineering (PSE), machine learning (ML), and sustainability. We: \n \n 1. mathematically model novel process systems. \n \n 2. develop algorithms for autonomous process operation. \n \n 3. computationally design new processes and chemicals. \n \n We are primarily focused on sustainability, energy systems, electrification, and nanomedicine applications.",
+  Research:
+    "The Advanced Process Intelligence Laboratory (APIL to friends) works at the intersection of process systems engineering (PSE), machine learning (ML), and sustainability. We: \n \n 1. mathematically model novel process systems. \n \n 2. develop algorithms for autonomous process operation. \n \n 3. computationally design new processes and chemicals. \n \n We are primarily focused on sustainability, energy systems, electrification, and nanomedicine applications.",
   projects: [
     {
       name: "Risk-constrained stochastic scheduling of multi-market energy storage systems",
