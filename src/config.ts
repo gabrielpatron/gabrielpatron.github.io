@@ -15,15 +15,15 @@ export const siteConfig = {
    text: "Our group seeks to employ interpretable ML to answer some of the most pressing questions in sustainability. We take a scaled approach to the sustainable supply chain to explore the following themes:",
   },
   {
-    subtitle: "Learning Sustainable Process Models",
-    text: "Given a partial understanding of the mathematical models that govern new and untested sustainable and intensified chemical processes, can their underlying phenomena be learned from data to determine intensified optimal operating policies?",
+    subtitle: "Process Scale: Hybrid Real-Time Optimization",
+    text: "Given a partial understanding of the mathematical models that govern new sustainable chemical processes, can their underlying phenomena be learned from data to determine optimal operating policies?",
   },
   {
-    subtitle: "Dynamic Intensification",
-    text: "What non-market factors can be used to predict the markets involved in sustainable chemical and energy systems? Can these predictions be efficiently embedded into system models to achieve intensified optimal scheduling?",
+    subtitle: "System Scale: End-to-End Demand Response Scheduling",
+    text: "What non-market factors can be used to predict the markets involved in sustainable chemical and energy systems? Can these predictions be efficiently embedded into system models to achieve optimal scheduling?",
   },
   {
-    subtitle: "Technology Investment and Policy",
+    subtitle: "Nation scale: Learned Heuristics for Investment Planning",
     text: "What are the key decisions that influence the uptake of new sustainable and intensified chemical projects over time? Can heuristics be learned from data to inform future technological investment and policy?",
   },
 ],
