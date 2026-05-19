@@ -10,7 +10,9 @@ export const siteConfig = {
   },
   aboutMe:
     "The Advanced Process Intelligence Laboratory (APIL to friends) works at the intersection of process systems engineering (PSE) and interpretable machine learning (ML) to: \n \n 1. mathematically model novel process systems. \n \n 2. develop algorithms for autonomous process operation. \n \n 3. computationally design new processes and chemicals. \n \n We are primarily focused on sustainability, energy systems, electrification, and nanomedicine applications.",
-  Research: [Our group seeks to employ interpretable ML to answer some of the most pressing questions in sustainability. We take a scaled approach to the sustainable supply chain to explore the following themes:
+  Research: [
+  {
+   text: "Our group seeks to employ interpretable ML to answer some of the most pressing questions in sustainability. We take a scaled approach to the sustainable supply chain to explore the following themes:"
   {
     subtitle: "Learning Sustainable Process Models",
     text: "Given a partial understanding of the mathematical models that govern new and untested sustainable and intensified chemical processes, can their underlying phenomena be learned from data to determine intensified optimal operating policies?",
