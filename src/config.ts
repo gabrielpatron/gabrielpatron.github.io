@@ -138,21 +138,21 @@ joinUs: {
     },
     {
       heading: "Undergraduate Students",
-      text: "We are excited to support motivated undergraduate students interested in conducting thesis research or summer research projects. Those interested should reach out to Prof. Patrón with a short statement describing your interest in the group and any previous research or professional work experience.",
-      email: "gabriel.patron17@imperial.ac.uk",
-      emailText: "Prof. Patrón",
+      textBeforeEmail: "We are excited to support motivated undergraduate students interested in conducting thesis research or summer research projects. Those interested should reach out to "
+      emailText: "Prof. Patrón"
+      textAfterEmail: " with a short statement describing your interest in the group and any previous research or professional work experience.",
     },  
     {
       heading: "Postdoctoral Researchers",
-      text: "We do not currently have funding to support postdoctoral positions. Applicants with independent funding are encouraged to reach out about possible research projects. Please email Prof. Patrón a copy of your CV and a cover letter describing your interest in the group and your research experience.",
-      email: "gabriel.patron17@imperial.ac.uk",
-      emailText: "Prof. Patrón",
+      textBeforeEmail: "We do not currently have funding to support postdoctoral positions. Applicants with independent funding are encouraged to reach out about possible research projects. Please email "
+      emailText: "Prof. Patrón"
+      textAfterEmail: " a copy of your CV and a cover letter describing your interest in the group and your research experience.",
     },
     {
       heading: "Collaborators",
-      text: "We are always open to collaborations with academic, industry, and public-sector partners. We are actively looking to develop computational methods with applications in the chemical, energy, and financial industries. Please reach out to Prof. Patrón to explore potential collaborations. ",
-      email: "gabriel.patron17@imperial.ac.uk",
-      emailText: "Prof. Patrón",
+      textBeforeEmail: "We are always open to collaborations with academic, industry, and public-sector partners. We are actively looking to develop computational methods with applications in the chemical, energy, and financial industries. Please reach out to "
+      emailText: "Prof. Patrón"
+      textAfterEmail: " to explore potential collaborations. ",
     },
 
   ],
