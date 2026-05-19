@@ -14,6 +14,7 @@ export const siteConfig = {
   {
    text: "Our group seeks to employ interpretable ML to answer some of the most pressing questions in sustainability. We take a scaled approach to the sustainable supply chain to explore the following themes:",
   },
+  {
     subtitle: "Learning Sustainable Process Models",
     text: "Given a partial understanding of the mathematical models that govern new and untested sustainable and intensified chemical processes, can their underlying phenomena be learned from data to determine intensified optimal operating policies?",
   },
