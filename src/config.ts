@@ -135,7 +135,7 @@ joinUs: {
       textAfterEmail: " if you are planning to apply and are interested in joining our group! \n \n  ",
       link: "https://chem-eng.utoronto.ca/graduate-studies/applications-and-admissions/",
       linkText: "More information for prospective graduate students.",
-    }
+    },
     {
       heading: "Undergraduate Students",
       text: "We are excited to support motivated undergraduate students interested in conducting thesis research or summer research projects. Those interested should reach out to Prof. Patrón with a short statement describing your interest in the group and any previous research or professional work experience.",
