@@ -10,8 +10,20 @@ export const siteConfig = {
   },
   aboutMe:
     "The Advanced Process Intelligence Laboratory (APIL to friends) works at the intersection of process systems engineering (PSE) and interpretable machine learning (ML) to: \n \n 1. mathematically model novel process systems. \n \n 2. develop algorithms for autonomous process operation. \n \n 3. computationally design new processes and chemicals. \n \n We are primarily focused on sustainability, energy systems, electrification, and nanomedicine applications.",
-  Research:
-    "Our group seeks to employ interpretable ML to answer some of the most pressing questions in sustainability. We take a scaled approach to the sustainable supply chain to explore the following themes:\n \n 1.	Given a partial understanding of the mathematical models that govern new and untested sustainable and intensified chemical processes, can their underlying phenomena be learned from data to determine intensified optimal operating policies? \n \n 2.	What non-market factors can be used to predict the markets involved in sustainable chemical and energy systems? Can these predictions be efficiently embedded into system models to achieve intensified optimal scheduling (i.e., dynamic intensification)? \n \n 3.	What are the key decisions that influence the uptake of new (sustainable and intensified) chemical projects over time? Can heuristics be learned from data to inform future technological investment and policy?",
+  Research: [Our group seeks to employ interpretable ML to answer some of the most pressing questions in sustainability. We take a scaled approach to the sustainable supply chain to explore the following themes:
+  {
+    subtitle: "Learning Sustainable Process Models",
+    text: "Given a partial understanding of the mathematical models that govern new and untested sustainable and intensified chemical processes, can their underlying phenomena be learned from data to determine intensified optimal operating policies?",
+  },
+  {
+    subtitle: "Dynamic Intensification",
+    text: "What non-market factors can be used to predict the markets involved in sustainable chemical and energy systems? Can these predictions be efficiently embedded into system models to achieve intensified optimal scheduling?",
+  },
+  {
+    subtitle: "Technology Investment and Policy",
+    text: "What are the key decisions that influence the uptake of new sustainable and intensified chemical projects over time? Can heuristics be learned from data to inform future technological investment and policy?",
+  },
+],
   projects: [
     {
       name: "Risk-constrained stochastic scheduling of multi-market energy storage systems",
