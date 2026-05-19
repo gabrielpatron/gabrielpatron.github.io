@@ -138,20 +138,20 @@ joinUs: {
     },
     {
       heading: "Undergraduate Students",
-      textBeforeEmail: "We are excited to support motivated undergraduate students interested in conducting thesis research or summer research projects. Those interested should reach out to "
-      emailText: "Prof. Patrón"
+      textBeforeEmail: "We are excited to support motivated undergraduate students interested in conducting thesis research or summer research projects. Those interested should reach out to ",
+      emailText: "Prof. Patrón",
       textAfterEmail: " with a short statement describing your interest in the group and any previous research or professional work experience.",
     },  
     {
       heading: "Postdoctoral Researchers",
-      textBeforeEmail: "We do not currently have funding to support postdoctoral positions. Applicants with independent funding are encouraged to reach out about possible research projects. Please email "
-      emailText: "Prof. Patrón"
+      textBeforeEmail: "We do not currently have funding to support postdoctoral positions. Applicants with independent funding are encouraged to reach out about possible research projects. Please email ",
+      emailText: "Prof. Patrón",
       textAfterEmail: " a copy of your CV and a cover letter describing your interest in the group and your research experience.",
     },
     {
       heading: "Collaborators",
-      textBeforeEmail: "We are always open to collaborations with academic, industry, and public-sector partners. We are actively looking to develop computational methods with applications in the chemical, energy, and financial industries. Please reach out to "
-      emailText: "Prof. Patrón"
+      textBeforeEmail: "We are always open to collaborations with academic, industry, and public-sector partners. We are actively looking to develop computational methods with applications in the chemical, energy, and financial industries. Please reach out to ",
+      emailText: "Prof. Patrón",
       textAfterEmail: " to explore potential collaborations. ",
     },
 
