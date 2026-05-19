@@ -130,14 +130,12 @@ joinUs: {
   sections: [
     {
       heading: "Graduate Students",
-      textBeforeEmail: "We are looking for up to two graduate students (PhD, MASc) to join our group in Fall 2026. Prospective students with a strong interest in computation, machine learning, and control should to apply to the Chemical Engineering & Applied Chemistry graduate studies program. Please reach out to "
+      textBeforeEmail: "We are looking for up to two graduate students (PhD, MASc) to join our group in Fall 2026. Prospective students with a strong interest in computation, machine learning, and control should apply to the Chemical Engineering & Applied Chemistry graduate studies program. Please reach out to ",
       emailText: "Prof. Patrón",
-      textAfterEmail:" if you are planning to apply and are interested in joining our group! \n \n  ",
+      textAfterEmail: " if you are planning to apply and are interested in joining our group! \n \n  ",
       link: "https://chem-eng.utoronto.ca/graduate-studies/applications-and-admissions/",
       linkText: "More information for prospective graduate students.",
-      email: "gabriel.patron17@imperial.ac.uk",
-
-    },
+    }
     {
       heading: "Undergraduate Students",
       text: "We are excited to support motivated undergraduate students interested in conducting thesis research or summer research projects. Those interested should reach out to Prof. Patrón with a short statement describing your interest in the group and any previous research or professional work experience.",
