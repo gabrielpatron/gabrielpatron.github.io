@@ -5,47 +5,43 @@ const joinUs = siteConfig.joinUs;
 const hasJoinUs = joinUs && joinUs.sections && joinUs.sections.length > 0;
 ---
 
-{
-  hasJoinUs && (
-    <section id="join-us" class="p-8 sm:p-12 md:p-16 lg:p-24">
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
-        <div class="lg:col-span-4">
-          <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900">
-            {joinUs.title}
-          </h2>
-          <div
-            class="w-[75px] h-[5px] mt-2 rounded-full"
-            style={`background-color: ${siteConfig.accentColor}`}
-          />
-        </div>
+{joinUs.sections.map((section) => (
+  <div class="rounded-2xl border border-gray-200 bg-gray-50 p-6 sm:p-8">
+    <h3 class="text-xl sm:text-2xl font-bold text-gray-900">
+      {section.heading}
+    </h3>
 
-        <div class="lg:col-span-8">
-          <div class="space-y-6">
-            {joinUs.sections.map((section) => (
-              <div class="rounded-2xl border border-gray-200 bg-gray-50 p-6 sm:p-8">
-                <h3 class="text-xl sm:text-2xl font-bold text-gray-900">
-                  {section.heading}
-                </h3>
-                <p class="mt-3 text-base sm:text-lg text-gray-600 leading-relaxed whitespace-pre-line"
-                    style="text-align: justify;">
-                  {section.text}
-                </p>
-                  {section.link && (
-                      <a
-                        href={section.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="mt-3 inline-block font-medium text-gray-900 underline decoration-2 underline-offset-4 hover:opacity-70"
-                        style={`text-decoration-color: ${siteConfig.accentColor}`}
-                      >
-                        {section.linkText || "Learn more"}
-                      </a>
-                    )}
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-    </section>
-  )
-}
+    <p
+      class="mt-3 text-base sm:text-lg text-gray-600 leading-relaxed whitespace-pre-line"
+      style="text-align: justify;"
+    >
+      {section.textBeforeEmail ? (
+        <>
+          {section.textBeforeEmail}
+          <a
+            href={`mailto:${siteConfig.social.email}`}
+            class="font-medium text-gray-900 underline decoration-2 underline-offset-4 hover:opacity-70"
+            style={`text-decoration-color: ${siteConfig.accentColor}`}
+          >
+            {section.emailText || "Prof. Patrón"}
+          </a>
+          {section.textAfterEmail}
+        </>
+      ) : (
+        section.text
+      )}
+    </p>
+
+    {section.link && (
+      <a
+        href={section.link}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="mt-3 inline-block font-medium text-gray-900 underline decoration-2 underline-offset-4 hover:opacity-70"
+        style={`text-decoration-color: ${siteConfig.accentColor}`}
+      >
+        {section.linkText || "Learn more"}
+      </a>
+    )}
+  </div>
+))}
