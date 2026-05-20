@@ -33,7 +33,17 @@ import { siteConfig } from "../config";
               </h3>
 
               <p class="mt-2 text-sm sm:text-base md:text-lg leading-relaxed text-gray-600 whitespace-pre-line text-justify">
-                {item.text}
+                {item.textBeforeBold ? (
+                  <>
+                    {item.textBeforeBold}
+                    <strong class="font-bold text-gray-900">
+                      {item.boldText}
+                    </strong>
+                    {item.textAfterBold}
+                  </>
+                ) : (
+                  item.text
+                )}
               </p>
 
               {item.papers && item.papers.length > 0 && (
