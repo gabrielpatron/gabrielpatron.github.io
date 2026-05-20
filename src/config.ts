@@ -17,7 +17,7 @@ export const siteConfig = {
      {
 	title: "Deep-learning-aided modifier adaptation: synergies with process intensification",
         link: "https://doi.org/10.1016/j.cep.2025.110581",
-      },
+      },]
   },
   {
     subtitle: "Process Scale: Hybrid Real-Time Optimization",
