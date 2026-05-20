@@ -29,6 +29,13 @@ export const siteConfig = {
 ],
   projects: [
     {
+      name: "Meta-learning for sample-efficient Bayesian optimisation of fed-batch processes",
+      description:
+        "Langdon et al. 2026. Preprint: arXiv",
+      link: "https://doi.org/10.48550/arXiv.2605.05382",
+      skills: ["Optimization", "Machine Learning"],
+    },
+    {
       name: "Risk-constrained stochastic scheduling of multi-market energy storage systems",
       description:
         "Patrón et al. 2025. Preprint: arXiv",
