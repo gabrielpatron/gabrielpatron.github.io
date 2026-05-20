@@ -13,19 +13,32 @@ export const siteConfig = {
   Research: [
   {
    text: "Our group seeks to employ interpretable ML to answer some of the most pressing questions in sustainability. We take a scaled approach to the sustainable supply chain to explore the following themes:",
+  },
+  {
+    subtitle: "Process Scale: Hybrid Real-Time Optimization",
+    text: "Given a partial understanding of the mathematical models that govern new sustainable chemical processes, can their underlying phenomena be learned from data to determine optimal operating policies? \n \n Related works:",
    papers: [
      {
 	title: "Deep-learning-aided modifier adaptation: synergies with process intensification",
         link: "https://doi.org/10.1016/j.cep.2025.110581",
+      },
+     {
+	title: "Meta-learning for sample-efficient Bayesian optimisation of fed-batch processes",
+        link: "https://doi.org/10.48550/arXiv.2605.05382",
       },]
   },
   {
-    subtitle: "Process Scale: Hybrid Real-Time Optimization",
-    text: "Given a partial understanding of the mathematical models that govern new sustainable chemical processes, can their underlying phenomena be learned from data to determine optimal operating policies?",
-  },
-  {
     subtitle: "System Scale: End-to-End Demand Response Scheduling",
-    text: "What non-market factors can be used to predict the markets involved in sustainable chemical and energy systems? Can these predictions be efficiently embedded into system models to achieve optimal scheduling?",
+    text: "What non-market factors can be used to predict the markets involved in sustainable chemical and energy systems? Can these predictions be efficiently embedded into system models to achieve optimal scheduling? \n \n Related works:",
+   papers: [
+     {
+	title: "Integrated Design and Scheduling of Hydrogen Processes under Uncertainty: A Quantile Neural Network Approach",
+        link: "https://doi.org/10.1021/acs.iecr.5c03288",
+      },
+     {
+	title: "Risk-aware stochastic scheduling of multi-market energy storage systems",
+        link: "https://doi.org/10.48550/arXiv.2510.27528",
+      },]
   },
   {
     subtitle: "Nation scale: Learned Heuristics for Investment Planning",
