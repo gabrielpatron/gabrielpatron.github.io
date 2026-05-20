@@ -16,8 +16,8 @@ export const siteConfig = {
   },
   {
     subtitle: "Process Scale: Hybrid Real-Time Optimization",
-    textBeforeBold: "Given a partial understanding of the mathematical models that govern new sustainable chemical processes, can their underlying phenomena be learned from data to determine optimal operating policies? "
-    boldText: "We take a real-time approach to solve this problem, where plant inputs are optimized using learned models as the plant evolves dynamically."
+    textBeforeBold: "Given a partial understanding of the mathematical models that govern new sustainable chemical processes, can their underlying phenomena be learned from data to determine optimal operating policies? ",
+    boldText: "We take a real-time approach to solve this problem, where plant inputs are optimized using learned models as the plant evolves dynamically.",
     textAfterBold:"\n \n Related works:",
    papers: [
      {
@@ -31,8 +31,8 @@ export const siteConfig = {
   },
   {
     subtitle: "System Scale: End-to-End Demand Response Scheduling",
-    textBeforeBold: "What non-market factors can be used to predict the markets involved in sustainable chemical and energy systems? Can these predictions be efficiently embedded into system models to achieve optimal system performance while satisfying consumer demand? " 
-    boldText: "We use neural network surrogates to model these markets and embed the learned markets into traditional optimization problems." 
+    textBeforeBold: "What non-market factors can be used to predict the markets involved in sustainable chemical and energy systems? Can these predictions be efficiently embedded into system models to achieve optimal system performance while satisfying consumer demand? ",
+    boldText: "We use neural network surrogates to model these markets and embed the learned markets into traditional optimization problems.",
     textAfterBold: "\n \n Related works:",
    papers: [
      {
