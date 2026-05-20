@@ -31,24 +31,28 @@ import { siteConfig } from "../config";
               <h3 class="text-base sm:text-lg md:text-xl font-bold text-gray-900">
                 {item.subtitle}
               </h3>
+
               <p class="mt-2 text-sm sm:text-base md:text-lg leading-relaxed text-gray-600 whitespace-pre-line text-justify">
                 {item.text}
               </p>
-		{item.papers && item.papers.length > 0 && (
-  		<div class="mt-3 space-y-1">
-    		{item.papers.map((paper) => (
-      		<a
-        		href={paper.link}
-        		target="_blank"
-        		rel="noopener noreferrer"
-        		class="block text-sm sm:text-base font-medium text-gray-900 underline decoration-2 underline-offset-4 hover:opacity-70"
-        		style={`text-decoration-color: ${siteConfig.accentColor}`}
-      		>
-        		{paper.title}
-      		</a>
-    		))}
-  		</div>
-		)}
+
+              {item.papers && item.papers.length > 0 && (
+                <ul class="mt-3 list-disc list-inside space-y-1 text-xs sm:text-sm text-gray-900">
+                  {item.papers.map((paper) => (
+                    <li>
+                      <a
+                        href={paper.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="font-medium underline decoration-2 underline-offset-4 hover:opacity-70"
+                        style={`text-decoration-color: ${siteConfig.accentColor}`}
+                      >
+                        {paper.title}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              )}
             </div>
           ))}
         </div>
