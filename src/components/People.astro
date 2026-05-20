@@ -21,99 +21,190 @@ const people = siteConfig.people ?? [];
         </div>
       </div>
     </div>
-        <div class="lg:col-span-9">
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-1">
-            {people.map((person) => (
-              <article class="rounded-2xl border border-gray-200 p-6 shadow-sm bg-white">
-                  {person.image && (
-                    <img
-                      src={person.image}
-                      alt={person.name}
-                      class="mx-auto mb-4 h-50 w-50 rounded-full object-cover"
-                    />
+
+    <div class="lg:col-span-9">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-1">
+        {people.map((person, index) => (
+          <>
+            <article
+              class="rounded-2xl border border-gray-200 p-6 shadow-sm bg-white cursor-pointer hover:shadow-md transition-shadow duration-200"
+              data-modal-open={`person-modal-${index}`}
+            >
+              {person.image && (
+                <img
+                  src={person.image}
+                  alt={person.name}
+                  class="mx-auto mb-4 h-50 w-50 rounded-full object-cover"
+                />
+              )}
+
+              <div class="flex items-start gap-4">
+                <div class="min-w-0">
+                  <h3 class="text-xl sm:text-2xl font-semibold text-gray-900">
+                    {person.name}
+                  </h3>
+
+                  {person.role && (
+                    <p class="mt-1 text-base sm:text-lg text-gray-600">
+                      {person.role}
+                    </p>
                   )}
-                <div class="flex items-start gap-4">
-
-                  <div class="min-w-0">
-                    <h3 class="text-xl sm:text-2xl font-semibold text-gray-900">
-                      {person.name}
-                    </h3>
-
-                    {person.role && (
-                      <p class="mt-1 text-base sm:text-lg text-gray-600">
-                        {person.role}
-                      </p>
-                    )}
-                  </div>
                 </div>
+              </div>
 
-                {person.bio && (
-                  <p class="mt-4 text-base sm:text-md leading-relaxed text-gray-600 whitespace-pre-line">
-                    {person.bio}
+              {person.bio && (
+                <p class="mt-4 text-base sm:text-md leading-relaxed text-gray-600 whitespace-pre-line">
+                  {person.bio}
+                </p>
+              )}
+
+              {(person.links || person.cv) && (
+                <div class="mt-4 flex flex-wrap gap-3">
+                  {person.cv && (
+                    <a
+                      href={person.cv}
+                      target="_blank"
+                      rel="noreferrer"
+                      class="px-3 py-1.5 bg-gray-100 text-gray-800 rounded-full text-sm font-medium hover:bg-gray-200 transition-colors duration-200"
+                      onClick="event.stopPropagation()"
+                    >
+                      CV
+                    </a>
+                  )}
+
+                  {person.links?.linkedin && (
+                    <a
+                      href={person.links.linkedin}
+                      target="_blank"
+                      rel="noreferrer"
+                      class="px-3 py-1.5 bg-gray-100 text-gray-800 rounded-full text-sm font-medium hover:bg-gray-200 transition-colors duration-200"
+                      onClick="event.stopPropagation()"
+                    >
+                      LinkedIn
+                    </a>
+                  )}
+
+                  {person.links?.github && (
+                    <a
+                      href={person.links.github}
+                      target="_blank"
+                      rel="noreferrer"
+                      class="px-3 py-1.5 bg-gray-100 text-gray-800 rounded-full text-sm font-medium hover:bg-gray-200 transition-colors duration-200"
+                      onClick="event.stopPropagation()"
+                    >
+                      GitHub
+                    </a>
+                  )}
+
+                  {person.links?.website && (
+                    <a
+                      href={person.links.website}
+                      target="_blank"
+                      rel="noreferrer"
+                      class="px-3 py-1.5 bg-gray-100 text-gray-800 rounded-full text-sm font-medium hover:bg-gray-200 transition-colors duration-200"
+                      onClick="event.stopPropagation()"
+                    >
+                      Website
+                    </a>
+                  )}
+
+                  {person.links?.scholar && (
+                    <a
+                      href={person.links.scholar}
+                      target="_blank"
+                      rel="noreferrer"
+                      class="px-3 py-1.5 bg-gray-100 text-gray-800 rounded-full text-sm font-medium hover:bg-gray-200 transition-colors duration-200"
+                      onClick="event.stopPropagation()"
+                    >
+                      Google Scholar
+                    </a>
+                  )}
+                </div>
+              )}
+            </article>
+
+            <div
+              id={`person-modal-${index}`}
+              class="fixed inset-0 z-[100] hidden items-center justify-center bg-black/40 p-6"
+              data-modal
+            >
+              <div class="relative w-full max-w-lg rounded-2xl bg-white p-6 shadow-xl">
+                <button
+                  class="absolute right-4 top-4 text-gray-500 hover:text-gray-900 text-2xl"
+                  data-modal-close
+                  aria-label="Close popup"
+                >
+                  ×
+                </button>
+
+                {person.image && (
+                  <img
+                    src={person.image}
+                    alt={person.name}
+                    class="mx-auto mb-4 h-32 w-32 rounded-full object-cover"
+                  />
+                )}
+
+                <h3 class="text-2xl font-bold text-gray-900">
+                  {person.name}
+                </h3>
+
+                {person.role && (
+                  <p class="mt-1 text-lg text-gray-600">
+                    {person.role}
                   </p>
                 )}
 
-                {(person.links || person.cv) && (
-                  <div class="mt-4 flex flex-wrap gap-3">
-                    {person.cv && (
-                      <a
-                        href={person.cv}
-                        target="_blank"
-                        rel="noreferrer"
-                        class="px-3 py-1.5 bg-gray-100 text-gray-800 rounded-full text-sm font-medium hover:bg-gray-200 transition-colors duration-200"
-                      >
-                        CV
-                      </a>
-                    )}
-
-                    {person.links?.linkedin && (
-                      <a
-                        href={person.links.linkedin}
-                        target="_blank"
-                        rel="noreferrer"
-                        class="px-3 py-1.5 bg-gray-100 text-gray-800 rounded-full text-sm font-medium hover:bg-gray-200 transition-colors duration-200"
-                      >
-                        LinkedIn
-                      </a>
-                    )}
-
-                    {person.links?.github && (
-                      <a
-                        href={person.links.github}
-                        target="_blank"
-                        rel="noreferrer"
-                        class="px-3 py-1.5 bg-gray-100 text-gray-800 rounded-full text-sm font-medium hover:bg-gray-200 transition-colors duration-200"
-                      >
-                        GitHub
-                      </a>
-                    )}
-
-                    {person.links?.website && (
-                      <a
-                        href={person.links.website}
-                        target="_blank"
-                        rel="noreferrer"
-                        class="px-3 py-1.5 bg-gray-100 text-gray-800 rounded-full text-sm font-medium hover:bg-gray-200 transition-colors duration-200"
-                      >
-                        Website
-                      </a>
-                    )}
-
-                    {person.links?.scholar && (
-                      <a
-                        href={person.links.scholar}
-                        target="_blank"
-                        rel="noreferrer"
-                        class="px-3 py-1.5 bg-gray-100 text-gray-800 rounded-full text-sm font-medium hover:bg-gray-200 transition-colors duration-200"
-                      >
-                        Google Scholar
-                      </a>
-                    )}
-                  </div>
+                {person.summary && (
+                  <p class="mt-4 text-base leading-relaxed text-gray-600">
+                    {person.summary}
+                  </p>
                 )}
-              </article>
-            ))}
-          </div>
-        </div>
+
+                {person.bio && (
+                  <p class="mt-4 text-sm leading-relaxed text-gray-500 whitespace-pre-line">
+                    {person.bio}
+                  </p>
+                )}
+              </div>
+            </div>
+          </>
+        ))}
+      </div>
+    </div>
   </section>
 )}
+
+<script>
+  document.querySelectorAll("[data-modal-open]").forEach((card) => {
+    card.addEventListener("click", () => {
+      const modalId = card.getAttribute("data-modal-open");
+      const modal = document.getElementById(modalId);
+
+      if (modal) {
+        modal.classList.remove("hidden");
+        modal.classList.add("flex");
+      }
+    });
+  });
+
+  document.querySelectorAll("[data-modal-close]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const modal = button.closest("[data-modal]");
+
+      if (modal) {
+        modal.classList.add("hidden");
+        modal.classList.remove("flex");
+      }
+    });
+  });
+
+  document.querySelectorAll("[data-modal]").forEach((modal) => {
+    modal.addEventListener("click", (event) => {
+      if (event.target === modal) {
+        modal.classList.add("hidden");
+        modal.classList.remove("flex");
+      }
+    });
+  });
+</script>
