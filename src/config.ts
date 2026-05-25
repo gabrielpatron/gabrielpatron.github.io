@@ -12,7 +12,7 @@ export const siteConfig = {
     "The Advanced Process Intelligence Laboratory (APIL to friends) works at the intersection of process systems engineering (PSE) and interpretable machine learning (ML) to: \n \n 1. mathematically model novel process systems. \n \n 2. develop algorithms for autonomous process operation. \n \n 3. computationally design new processes and chemicals. \n \n We are primarily focused on sustainability, energy systems, electrification, and nanomedicine applications.",
   Research: [
   {
-   text: "Our group seeks to employ interpretable ML to answer some of the most pressing questions in sustainability. We take a scaled approach to the sustainable supply chain.",
+   text: "Our group seeks to employ interpretable ML to answer some of the most pressing questions in sustainability. To achieve this, we decompose the sustainable supply chain by scale (Fig.1).",
   },
   {
     subtitle: "Process Scale: Hybrid Real-Time Optimization",
@@ -32,7 +32,7 @@ export const siteConfig = {
   {
     subtitle: "System Scale: End-to-End Demand Response Scheduling",
     textBeforeBold: "What non-market factors can be used to predict the markets involved in sustainable chemical and energy systems? Can these predictions be efficiently embedded into system models to achieve optimal performance while satisfying consumer demand? ",
-    boldText: "We use neural network surrogates to model these markets and embed the learned markets into optimal system scheduling problems.",
+    boldText: "We use neural networks to learn market distributions and embed these into optimal system scheduling problems.",
     textAfterBold: "\n \n Related works:",
    papers: [
      {
@@ -46,7 +46,8 @@ export const siteConfig = {
   },
   {
     subtitle: "Nation scale: Learned Heuristics for Investment Planning",
-    textBeforeBold: "What are the key decisions that influence the uptake of new sustainable and intensified chemical projects over time? Can heuristics be learned from data to inform future technological investment and policy?",
+    textBeforeBold: "What are the key decisions that influence the uptake of new sustainable chemical projects over time? Can we take a data-driven approach to isolate these factors?",
+    boldText: "We aim to learn heuristic rules to produce interpretable policies that inform future technology investment.",
   },
 ],
   projects: [
