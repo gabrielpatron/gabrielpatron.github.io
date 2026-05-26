@@ -4,6 +4,7 @@ export const siteConfig = {
   titleLink: "https://chem-eng.utoronto.ca/",
   description: "APIL Site",
   accentColor: "#B5ED74",
+  socials:"",
   aboutMe:
     "The Advanced Process Intelligence Laboratory (APIL to friends) works at the intersection of process systems engineering (PSE) and interpretable machine learning (ML) to: \n \n 1. mathematically model novel process systems. \n \n 2. develop algorithms for autonomous process operation. \n \n 3. computationally design new processes and chemicals. \n \n We are primarily focused on sustainability, energy systems, electrification, and nanomedicine applications.",
   Research: [
