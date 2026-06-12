@@ -27,15 +27,23 @@ const people = siteConfig.people ?? [];
         {people.map((person, index) => (
           <>
             <article
-              class="rounded-2xl border border-gray-200 p-6 shadow-sm bg-white cursor-pointer hover:shadow-md transition-shadow duration-200"
+              class="group rounded-2xl border border-gray-200 p-6 shadow-sm bg-white cursor-pointer hover:shadow-md transition-shadow duration-200"
               data-modal-open={`person-modal-${index}`}
             >
               {person.image && (
-                <img
-                  src={person.image}
-                  alt={person.name}
-                  class="mx-auto mb-4 h-50 w-50 rounded-full object-cover"
-                />
+                <div class="relative mx-auto mb-4 h-50 w-50 overflow-hidden rounded-full">
+                  <img
+                    src={person.image}
+                    alt={person.name}
+                    class="absolute inset-0 h-full w-full object-cover transition-opacity duration-300 group-hover:opacity-0"
+                  />
+
+                  <img
+                    src={person.hoverImage ?? person.image}
+                    alt={`${person.name} alternate`}
+                    class="absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+                  />
+                </div>
               )}
 
               <div class="flex items-start gap-4">
