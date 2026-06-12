@@ -3,3 +3,24 @@
 body {
   font-family: 'IBM Plex Mono', monospace;
 }
+
+@media (max-width: 768px) {
+  header {
+    position: static;
+    z-index: 10;
+  }
+
+  main,
+  section:first-of-type {
+    padding-top: 1.5rem;
+  }
+
+  img[alt*="Toronto"],
+  img[alt*="University"],
+  img[src*="toronto"],
+  img[src*="uoft"] {
+    margin-top: 1rem;
+    max-width: min(220px, 70vw);
+    height: auto;
+  }
+}
