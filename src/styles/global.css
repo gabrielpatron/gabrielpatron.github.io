@@ -29,7 +29,7 @@ body {
   /* Research page figure */
   img[alt="Research"] {
     display: block;
-    width: min(92%, 300px);
+    width: min(78%, 245px);
     max-width: 100%;
     height: auto;
     margin: 1rem auto 0.75rem auto;
