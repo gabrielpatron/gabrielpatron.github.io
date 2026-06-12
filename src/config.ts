@@ -164,7 +164,7 @@ export const siteConfig = {
     bio: "",
     summary: "Postdoc, Computing, Imperial College London \n PhD, Chemical Engineering, University of Waterloo \n MSc, Chemical Engineering, Imperial College London \n BASc, Chemical Engineering, University of Toronto \n \n Gabriel D. Patrón is an Assistant Professor at the University of Toronto's Department of Chemical Engineering & Applied Chemistry. His work aims to bridge modern machine learning with process engineering to develop methods for the control and optimization of chemical and energy systems. His research interests include process sustainability and intensification, as well as interpretable AI to uncover the systemic incentives driving the green transition.",
     image: "/images/gp1.JPG",
-    hoverimage: "/images/gp2.PNG"
+    hoverImage: "/images/gp2.PNG",
     cv: "/images/Gabriel_Patron_CV.pdf",
     email: "gabriel.patron17@imperial.ac.uk",
     links: {
