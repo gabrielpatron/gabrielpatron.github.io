@@ -5,7 +5,7 @@ export const siteConfig = {
   description: "APIL Site",
   accentColor: "#B5ED74",
   social: {
-  email: "gabriel.patron17@imperial.ac.uk",
+  email: "gabriel.patron@utoronto.ca",
   linkedin: "https://scholar.google.com/citations?user=r1Rw2nQAAAAJ&hl=en&oi=ao",
 },
   aboutMe:
