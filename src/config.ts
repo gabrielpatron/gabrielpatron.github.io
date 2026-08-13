@@ -52,6 +52,13 @@ export const siteConfig = {
 ],
   projects: [
     {
+      name: "Small Data at Small Scales: Learning Nanoparticle Affinities from Sparse Physicochemical Datasets",
+      description:
+        "Patrón et al. 2026. Preprint: ChemRxiv",
+      link: "10.26434/chemrxiv.15006759/v3",
+      skills: ["Machine Learning", "Modelling", "Nanomedicine"],
+    }, 
+   {
       name: "Meta-learning for sample-efficient Bayesian optimisation of fed-batch processes",
       description:
         "Langdon et al. 2026. Preprint: arXiv",
@@ -61,8 +68,8 @@ export const siteConfig = {
     {
       name: "Risk-constrained stochastic scheduling of multi-market energy storage systems",
       description:
-        "Patrón et al. 2025. Preprint: arXiv",
-      link: "https://doi.org/10.48550/arXiv.2510.27528",
+        "Patrón et al. 2025. Energy",
+      link: "https://doi.org/10.1016/j.energy.2026.141937",
       skills: ["Control", "Optimization", "Sustainability"],
     },
     {
