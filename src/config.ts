@@ -55,7 +55,7 @@ export const siteConfig = {
       name: "Small Data at Small Scales: Learning Nanoparticle Affinities from Sparse Physicochemical Datasets",
       description:
         "Patrón et al. 2026. Preprint: ChemRxiv",
-      link: "10.26434/chemrxiv.15006759/v3",
+      link: "https://chemrxiv.org/doi/abs/10.26434/chemrxiv.15006759/v3",
       skills: ["Machine Learning", "Modelling", "Nanomedicine"],
     }, 
    {
