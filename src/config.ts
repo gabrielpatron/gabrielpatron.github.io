@@ -188,7 +188,7 @@ export const siteConfig = {
     hoverImage: "/images/kevin_gan_alt.png",
     email: "k.gan@mail.utoronto.ca",
     links: {
-      linkedin: "www.linkedin.com/in/kevin-y-h-gan-218214197",
+      linkedin: "https://www.linkedin.com/in/kevin-y-h-gan-218214197/",
     },
   },
 ],
