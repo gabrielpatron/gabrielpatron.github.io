@@ -191,6 +191,18 @@ export const siteConfig = {
       linkedin: "https://www.linkedin.com/in/kevin-y-h-gan-218214197/",
     },
   },
+  {
+    name: "Kai Hashimoto",
+    role: "Undergraduate Student",
+    bio: "",
+    summary: "BASc, Chemical Engineering, University of Toronto \n \n Kevin aims to develop demand response scheduling strategies under uncertainty.",
+    image: "/images/kai_hashimoto.jpg",
+    hoverImage: "/images/kai_hashimoto_alt.jpeg",
+    email: "kai.hashimoto@mail.utoronto.ca",
+    links: {
+      linkedin: "https://www.linkedin.com/in/kai-hashimoto/",
+    },
+  },
 ],
   
 joinUs: {
