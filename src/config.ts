@@ -52,6 +52,13 @@ export const siteConfig = {
 ],
   projects: [
     {
+      name: "Techno–economic optimisation of hydrogen geological storage in UK depleted gas reservoirs",
+      description:
+        "Vahabzadeh et al. 2026. Energy Conversion and Management.",
+      link: "https://doi.org/10.1016/j.enconman.2026.122077",
+      skills: ["Machine Learning", "Modelling", "Sustainability"],
+    }, 
+    {
       name: "Small Data at Small Scales: Learning Nanoparticle Affinities from Sparse Physicochemical Datasets",
       description:
         "Patrón et al. 2026. Preprint: ChemRxiv",
