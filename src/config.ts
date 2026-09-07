@@ -195,8 +195,8 @@ export const siteConfig = {
     name: "Kai Hashimoto",
     role: "Undergraduate Student",
     bio: "",
-    summary: "BASc, Chemical Engineering, University of Toronto \n \n Kevin aims to develop demand response scheduling strategies under uncertainty.",
-    image: "/images/kai_hashimoto.jpg",
+    summary: "BASc, Chemical Engineering, University of Toronto \n \n Kai aims to develop demand response scheduling strategies under uncertainty.",
+    image: "/images/kai_hashimoto.JPG",
     hoverImage: "/images/kai_hashimoto_alt.jpeg",
     email: "kai.hashimoto@mail.utoronto.ca",
     links: {
