@@ -190,7 +190,7 @@ export const siteConfig = {
     name: "Bala Murali",
     role: "Undergraduate Thesis Student",
     bio: "",
-    summary: "BASc, Chemical Engineering, University of Toronto \n \n Kevin aims to learn interpretable decision rules for capacity expansion of energy systems.",
+    summary: "BASc, Chemical Engineering, University of Toronto \n \n Bala aims to learn interpretable decision rules for capacity expansion of energy systems.",
     image: "/images/bala_murali.jpg",
     hoverImage: "/images/bala_murali_alt.jpg",
     email: "balakannan.murali@mail.utoronto.ca",
