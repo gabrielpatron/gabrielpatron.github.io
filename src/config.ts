@@ -192,7 +192,7 @@ export const siteConfig = {
     bio: "",
     summary: "BASc, Chemical Engineering, University of Toronto \n \n Kevin aims to learn interpretable decision rules for capacity expansion of energy systems.",
     image: "/images/bala_murali.jpg",
-    hoverImage: "/images/bala_murali_alt.png",
+    hoverImage: "/images/bala_murali_alt.jpg",
     email: "balakannan.murali@mail.utoronto.ca",
     links: {
       linkedin: "https://www.linkedin.com/in/bala-kannan-m-61078a258/",
