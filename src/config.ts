@@ -56,7 +56,7 @@ export const siteConfig = {
       description:
         "Vahabzadeh et al. 2026. Energy Conversion and Management.",
       link: "https://doi.org/10.1016/j.enconman.2026.122077",
-      skills: ["Machine Learning", "Modelling", "Sustainability"],
+      skills: ["Machine Learning", "Modelling", "Optimization", "Sustainability"],
     }, 
     {
       name: "Small Data at Small Scales: Learning Nanoparticle Affinities from Sparse Physicochemical Datasets",
@@ -229,7 +229,7 @@ joinUs: {
   sections: [
     {
       heading: "Graduate Students",
-      textBeforeEmail: "We are looking for up to two graduate students (PhD, MASc) to join our group in Fall 2026. Prospective students with a strong interest in computation, machine learning, and control should apply to the Chemical Engineering & Applied Chemistry graduate studies program. Please reach out to ",
+      textBeforeEmail: "We are currently looking for curious and motivated graduate students for PhD (international or domestic) or MASc (domestic only).  Prospective students with a strong interest in computation, machine learning, and control should apply to the Chemical Engineering & Applied Chemistry graduate studies program. Please reach out to ",
       emailText: "Prof. Patrón",
       textAfterEmail: " if you are planning to apply and are interested in joining our group! \n \n  ",
       link: "https://chem-eng.utoronto.ca/graduate-studies/applications-and-admissions/",
