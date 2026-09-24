@@ -202,12 +202,12 @@ export const siteConfig = {
     name: "Hillary Chong",
     role: "Undergraduate Student",
     bio: "",
-    summary: "BASc, Chemical Engineering, University of Toronto \n \n Kai aims to develop demand response scheduling strategies under uncertainty.",
+    summary: "BASc, Chemical Engineering, University of Toronto \n \n Hillary aims to develop demand response scheduling strategies under uncertainty.",
     image: "/images/hillary_chong.jpg",
     hoverImage: "/images/kevin_gan_alt.png",
-    email: "k.gan@mail.utoronto.ca",
+    email: "hillaryh.chong@mail.utoronto.ca",
     links: {
-      linkedin: "https://www.linkedin.com/in/kevin-y-h-gan-218214197/",
+      linkedin: "https://www.linkedin.com/in/hillarychong/",
     },
   },
   {
