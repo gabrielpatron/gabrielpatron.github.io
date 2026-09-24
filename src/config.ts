@@ -204,7 +204,6 @@ export const siteConfig = {
     bio: "",
     summary: "BASc, Chemical Engineering, University of Toronto \n \n Hillary aims to develop demand response scheduling strategies under uncertainty.",
     image: "/images/hillary_chong.jpg",
-    hoverImage: "/images/kevin_gan_alt.png",
     email: "hillaryh.chong@mail.utoronto.ca",
     links: {
       linkedin: "https://www.linkedin.com/in/hillarychong/",
